@@ -3,6 +3,8 @@ import { db } from '@/lib/db';
 import { storeSettings } from '@/db/schema';
 import { inArray } from 'drizzle-orm';
 
+export const dynamic = 'force-dynamic';
+
 // Public: returns only the settings customers need
 const PUBLIC_KEYS = ['shopee_checkout_link'];
 
